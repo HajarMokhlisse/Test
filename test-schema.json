@@ -1,0 +1,16 @@
+{
+    "$schema":"http://json-schema.org/draft-04/schema#",
+    "$id": "http://test.com/my-test.schema",
+    "title":"test",
+    "properties": {
+        "name": {"type": "string"},
+
+        "age":{"type": "integer",
+    "minimum": 0},
+        
+       "Student":{"type": "boolean"}
+    },
+
+    "required": ["name","age"],
+    "additionalProperties": false
+}
